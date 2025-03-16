@@ -28,4 +28,4 @@ function compilaSass () {
             gulp.watch('src/js/*.js', js);
             }
             exports.watch = watch;
-            exports.default = gulp.series(watch);
+            exports.default = gulp.series(html, compilaSass , js);
