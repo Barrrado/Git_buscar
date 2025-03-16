@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../dist/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap" rel="stylesheet">
+    <title>GitPerfil</title>
+</head>
+<body>
+    <header class="header__conteiner">
+        <h1 class="titulo">Pequisa de Profile</h1>
+        <form class="form">
+            <input class="form__buscar" placeholder="Perfil" type="text" name="" id="perfil">
+            <button class=" btn__buscar" id="buscar">Buscar</button>
+        </form>
+    </header>
+    <section class="seção__conteiner" id="seçao__conteiner">
+       <div class="color">
+        <img class="seção__img" id='avatar' src="../download.png" alt="">
+    </div>
+    
+   <diva class="seção__conteiner__info">
+    <h1 class="profile-name" id="name"></h1>
+    <h2 class="profile-username" id="username"></h2>
+    <ul class="numbers">
+        <li class="numbers-item">
+            <h4>Repositórios</h4>
+            <span id='repos'></span>
+        </li>
+        <li class="numbers-item" >
+            <h4>Seguidores</h4>
+            <span id="seguidores"></span>
+        </li>
+        <li class="numbers-item" >
+            <h4>Seguindo</h4>
+            <span id="seguindo"></span>
+        </li>
+    </ul> 
+    <a href="#" class="profile-link" id="link">Ver no Github</a>
+   </diva>
+    </section>
+</body>
+<script src="../jquery-3.7.1.js"></script>
+<script src="./js/main.js"></script>
+</html>
+<!-- aqui esta as modificações -->
